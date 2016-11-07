@@ -1,0 +1,183 @@
+﻿生成启动时间为 2016/10/27 15:20:48。
+     1>项目“C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\VoxCADXBB\VoxCADXBB.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\VoxCADXBB.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\VoxCADXBB.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Moc'ing voxcadxbb.h...
+         Uic'ing voxcadxbb.ui...
+         Moc'ing QOpenGL.h...
+         Moc'ing QSimplePlot.h...
+         Moc'ing QThreadWrap.h...
+         Moc'ing vworkspace.h...
+         Moc'ing vPalette.h...
+         Moc'ing vStructureEditor.h...
+         Moc'ing QVX_Interfaces.h...
+         Moc'ing QVX_Edit.h...
+         Rcc'ing voxcadxbb.qrc...
+         Uic'ing vStructureEditor.ui...
+         Uic'ing vPalette.ui...
+         Uic'ing vworkspace.ui...
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtXml /IC:\Qt\4.8.6\include\QtOpenGL /IC:\Libs\qwt\src /I..\Utils /I..\Voxelyze /IC:\Qt\4.8.6\include\qtmain /IC:\Qt\4.8.6\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_XML_LIB /D USE_OPEN_GL /D USE_ZLIB_COMPRESSION /D PREC_MED /D SOQT_DLL /D COIN_DLL /D SOWIN_DLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\oldVoxelyze\GL_Utils.cpp ..\oldVoxelyze\MarchCube.cpp ..\oldVoxelyze\Mesh.cpp ..\oldVoxelyze\VXS_Bond.cpp ..\oldVoxelyze\VXS_SimGLView.cpp ..\oldVoxelyze\VXS_Voxel.cpp ..\oldVoxelyze\VXt_Voxel.cpp ..\oldVoxelyze\VX_Bond.cpp ..\oldVoxelyze\VX_Environment.cpp ..\oldVoxelyze\VX_FEA.cpp ..\oldVoxelyze\VX_FRegion.cpp ..\oldVoxelyze\VX_MeshUtil.cpp ..\oldVoxelyze\VX_Object.cpp ..\oldVoxelyze\VX_Sim.cpp ..\oldVoxelyze\XML_Rip.cpp ..\QTUtils\QOpenGL.cpp ..\QTUtils\QSimplePlot.cpp ..\QTUtils\QThreadWrap.cpp ..\Voxelyze\src\Voxelyze.cpp ..\Voxelyze\src\VX_Collision.cpp ..\Voxelyze\src\VX_External.cpp ..\Voxelyze\src\VX_LinearSolver.cpp ..\Voxelyze\src\VX_Link.cpp ..\Voxelyze\src\VX_Material.cpp ..\Voxelyze\src\VX_MaterialLink.cpp ..\Voxelyze\src\VX_MaterialVoxel.cpp ..\Voxelyze\src\VX_MeshRender.cpp ..\Voxelyze\src\VX_Voxel.cpp GeneratedFiles\Debug\moc_QOpenGL.cpp GeneratedFiles\Debug\moc_QSimplePlot.cpp GeneratedFiles\Debug\moc_QThreadWrap.cpp GeneratedFiles\Debug\moc_QVX_Edit.cpp GeneratedFiles\Debug\moc_QVX_Interfaces.cpp GeneratedFiles\Debug\moc_voxcadxbb.cpp GeneratedFiles\Debug\moc_vPalette.cpp GeneratedFiles\Debug\moc_vStructureEditor.cpp GeneratedFiles\Debug\moc_vworkspace.cpp main.cpp QVX_Edit.cpp QVX_Interface.cpp voxcadxbb.cpp vPalette.cpp vStructureEditor.cpp vworkspace.cpp
+         GL_Utils.cpp
+         MarchCube.cpp
+         Mesh.cpp
+         VXS_Bond.cpp
+         VXS_SimGLView.cpp
+         VXS_Voxel.cpp
+         VXt_Voxel.cpp
+         VX_Bond.cpp
+         VX_Environment.cpp
+         VX_FEA.cpp
+         VX_FRegion.cpp
+         VX_MeshUtil.cpp
+         VX_Object.cpp
+         VX_Sim.cpp
+         XML_Rip.cpp
+         QOpenGL.cpp
+         QSimplePlot.cpp
+         QThreadWrap.cpp
+         Voxelyze.cpp
+         VX_Collision.cpp
+         正在生成代码...
+         正在编译...
+         VX_External.cpp
+         VX_LinearSolver.cpp
+         VX_Link.cpp
+         VX_Material.cpp
+         VX_MaterialLink.cpp
+         VX_MaterialVoxel.cpp
+         VX_MeshRender.cpp
+         VX_Voxel.cpp
+         moc_QOpenGL.cpp
+         moc_QSimplePlot.cpp
+         moc_QThreadWrap.cpp
+         moc_QVX_Edit.cpp
+         moc_QVX_Interfaces.cpp
+         moc_voxcadxbb.cpp
+         moc_vPalette.cpp
+         moc_vStructureEditor.cpp
+         moc_vworkspace.cpp
+         main.cpp
+         QVX_Edit.cpp
+         QVX_Interface.cpp
+         正在生成代码...
+         正在编译...
+         voxcadxbb.cpp
+         vPalette.cpp
+         vStructureEditor.cpp
+         vworkspace.cpp
+         正在生成代码...
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtXml /IC:\Qt\4.8.6\include\QtOpenGL /IC:\Libs\qwt\src /I..\Utils /I..\Voxelyze /IC:\Qt\4.8.6\include\qtmain /IC:\Qt\4.8.6\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_XML_LIB /D USE_OPEN_GL /D USE_ZLIB_COMPRESSION /D PREC_MED /D SOQT_DLL /D COIN_DLL /D SOWIN_DLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_voxcadxbb.cpp
+         qrc_voxcadxbb.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VoxCADXBB.exe.embed.manifest.res" Debug\VoxCADXBB_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\\VoxCADXBB.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtXmld4.lib OpenGL32.lib coin3d.lib sowin1d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VoxCADXBB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\VoxCADXBB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\VoxCADXBB.lib" /MACHINE:X86 Debug\VoxCADXBB.exe.embed.manifest.res
+         Debug\GL_Utils.obj
+         Debug\MarchCube.obj
+         Debug\Mesh.obj
+         Debug\VXS_Bond.obj
+         Debug\VXS_SimGLView.obj
+         Debug\VXS_Voxel.obj
+         Debug\VXt_Voxel.obj
+         Debug\VX_Bond.obj
+         Debug\VX_Environment.obj
+         Debug\VX_FEA.obj
+         Debug\VX_FRegion.obj
+         Debug\VX_MeshUtil.obj
+         Debug\VX_Object.obj
+         Debug\VX_Sim.obj
+         Debug\XML_Rip.obj
+         Debug\QOpenGL.obj
+         Debug\QSimplePlot.obj
+         Debug\QThreadWrap.obj
+         Debug\Voxelyze.obj
+         Debug\VX_Collision.obj
+         Debug\VX_External.obj
+         Debug\VX_LinearSolver.obj
+         Debug\VX_Link.obj
+         Debug\VX_Material.obj
+         Debug\VX_MaterialLink.obj
+         Debug\VX_MaterialVoxel.obj
+         Debug\VX_MeshRender.obj
+         Debug\VX_Voxel.obj
+         Debug\moc_QOpenGL.obj
+         Debug\moc_QSimplePlot.obj
+         Debug\moc_QThreadWrap.obj
+         Debug\moc_QVX_Edit.obj
+         Debug\moc_QVX_Interfaces.obj
+         Debug\moc_voxcadxbb.obj
+         Debug\moc_vPalette.obj
+         Debug\moc_vStructureEditor.obj
+         Debug\moc_vworkspace.obj
+         Debug\qrc_voxcadxbb.obj
+         Debug\main.obj
+         Debug\QVX_Edit.obj
+         Debug\QVX_Interface.obj
+         Debug\voxcadxbb.obj
+         Debug\vPalette.obj
+         Debug\vStructureEditor.obj
+         Debug\vworkspace.obj
+       Manifest:
+         正在删除文件“Debug\VoxCADXBB.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VoxCADXBB.exe.embed.manifest" /manifest Debug\VoxCADXBB.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VoxCADXBB.exe.embed.manifest.res" Debug\VoxCADXBB_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\\VoxCADXBB.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtXmld4.lib OpenGL32.lib coin3d.lib sowin1d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VoxCADXBB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\VoxCADXBB.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\VoxCADXBB.lib" /MACHINE:X86 Debug\VoxCADXBB.exe.embed.manifest.res
+         Debug\GL_Utils.obj
+         Debug\MarchCube.obj
+         Debug\Mesh.obj
+         Debug\VXS_Bond.obj
+         Debug\VXS_SimGLView.obj
+         Debug\VXS_Voxel.obj
+         Debug\VXt_Voxel.obj
+         Debug\VX_Bond.obj
+         Debug\VX_Environment.obj
+         Debug\VX_FEA.obj
+         Debug\VX_FRegion.obj
+         Debug\VX_MeshUtil.obj
+         Debug\VX_Object.obj
+         Debug\VX_Sim.obj
+         Debug\XML_Rip.obj
+         Debug\QOpenGL.obj
+         Debug\QSimplePlot.obj
+         Debug\QThreadWrap.obj
+         Debug\Voxelyze.obj
+         Debug\VX_Collision.obj
+         Debug\VX_External.obj
+         Debug\VX_LinearSolver.obj
+         Debug\VX_Link.obj
+         Debug\VX_Material.obj
+         Debug\VX_MaterialLink.obj
+         Debug\VX_MaterialVoxel.obj
+         Debug\VX_MeshRender.obj
+         Debug\VX_Voxel.obj
+         Debug\moc_QOpenGL.obj
+         Debug\moc_QSimplePlot.obj
+         Debug\moc_QThreadWrap.obj
+         Debug\moc_QVX_Edit.obj
+         Debug\moc_QVX_Interfaces.obj
+         Debug\moc_voxcadxbb.obj
+         Debug\moc_vPalette.obj
+         Debug\moc_vStructureEditor.obj
+         Debug\moc_vworkspace.obj
+         Debug\qrc_voxcadxbb.obj
+         Debug\main.obj
+         Debug\QVX_Edit.obj
+         Debug\QVX_Interface.obj
+         Debug\voxcadxbb.obj
+         Debug\vPalette.obj
+         Debug\vStructureEditor.obj
+         Debug\vworkspace.obj
+         VoxCADXBB.vcxproj -> C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\Win32\Debug\VoxCADXBB.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VoxCADXBB.unsuccessfulbuild”。
+         正在对“Debug\VoxCADXBB.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\XBB\documents\visual studio 2010\Projects\VoxCADXBB\VoxCADXBB\VoxCADXBB.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:41.53

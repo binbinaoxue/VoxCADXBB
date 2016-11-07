@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2f663567-86d8-4cdb-b1d4-6abff01b4d19}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{f096357f-ac5b-486d-bce9-446bc03596c0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Voxelyze">
+      <UniqueIdentifier>{47a109ee-3848-4855-ab82-c79a225c46f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\oldVoxelyze">
+      <UniqueIdentifier>{800c2acd-1bdc-4659-91e8-f1aab78e3df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\oldVoxelyze">
+      <UniqueIdentifier>{25394a4d-699f-46b2-879c-b23a68f150b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Voxelyze">
+      <UniqueIdentifier>{53ed7b66-a229-4d13-b772-728299727eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VX">
+      <UniqueIdentifier>{62922568-87f4-46b2-a519-637ff4d7334d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VX">
+      <UniqueIdentifier>{223e04e1-6566-4e20-9838-59f4702f823b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{fb7568a3-0ff2-4ebb-bd96-33351e24e8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{b98535e2-8fa5-4d5b-9a49-d34e0f3b4df0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voxcadxbb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_voxcadxbb.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_voxcadxbb.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_voxcadxbb.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\GL_Utils.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\MarchCube.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\Mesh.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_Bond.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_Environment.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_FEA.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_FRegion.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_MeshUtil.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_Object.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VX_Sim.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VXS_Bond.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VXS_SimGLView.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VXS_Voxel.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\VXt_Voxel.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\oldVoxelyze\XML_Rip.cpp">
+      <Filter>Source Files\oldVoxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\Voxelyze.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_Collision.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_External.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_LinearSolver.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_Link.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_Material.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_MaterialLink.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_MaterialVoxel.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_MeshRender.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Voxelyze\src\VX_Voxel.cpp">
+      <Filter>Source Files\Voxelyze</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVX_Edit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVX_Edit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QVX_Interfaces.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QVX_Interfaces.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QVX_Edit.cpp">
+      <Filter>Source Files\VX</Filter>
+    </ClCompile>
+    <ClCompile Include="QVX_Interface.cpp">
+      <Filter>Source Files\VX</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vStructureEditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vStructureEditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="vStructureEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vPalette.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vPalette.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vworkspace.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vworkspace.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="vPalette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vworkspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QOpenGL.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QOpenGL.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QSimplePlot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QSimplePlot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QThreadWrap.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QThreadWrap.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QTUtils\QOpenGL.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QTUtils\QSimplePlot.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\QTUtils\QThreadWrap.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="voxcadxbb.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="voxcadxbb.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="voxcadxbb.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QVX_Edit.h">
+      <Filter>Header Files\VX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QVX_Interfaces.h">
+      <Filter>Header Files\VX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vStructureEditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vStructureEditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vPalette.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vworkspace.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vPalette.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vworkspace.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\QTUtils\QOpenGL.h">
+      <Filter>Header Files\Utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\QTUtils\QSimplePlot.h">
+      <Filter>Header Files\Utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\QTUtils\QThreadWrap.h">
+      <Filter>Header Files\Utils</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_voxcadxbb.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\Array3D.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\Quat3D.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\Vec3D.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\Voxelyze.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_Collision.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_External.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_LinearSolver.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_Link.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_Material.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_MaterialLink.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_MaterialVoxel.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_MeshRender.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_Utils.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\GL_Utils.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\MarchCube.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\Mesh.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_Bond.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_Enums.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_Environment.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_FEA.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_FRegion.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_MeshUtil.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_Object.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VX_Sim.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VXS_Bond.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VXS_BondInternal.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VXS_SimGLView.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VXS_Voxel.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\VXt_Voxel.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\XML_Rip.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\zconf.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oldVoxelyze\zlib.h">
+      <Filter>Header Files\oldVoxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Voxelyze\include\VX_Voxel.h">
+      <Filter>Header Files\Voxelyze</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vStructureEditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vPalette.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vworkspace.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
